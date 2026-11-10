@@ -25,3 +25,11 @@ class BoletoCortesia(Boleto):
 
     def calcular_precio(self):
         return 0
+
+
+class BoletoTerceraEdad(Boleto):
+    def __init__(self, cliente, funcion):
+        super().__init__(cliente, funcion)
+
+    def calcular_precio(self):
+        return super().calcular_precio() * 0.50
