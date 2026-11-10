@@ -11,3 +11,10 @@ Ejercicio 2.
 3.Si
 4.En Estancia porque es la clase padre y así las clases hijas heredan la validación sin repetir el código.
 5.En esta varais veces no me daba el reto .
+
+Preguntas de comprensión
+1. BoletoCortesia reemplaza el cálculo; BoletoEstudiante y BoletoTerceraEdad lo extienden con super(). En estacionamiento, 
+EstanciaPension reemplaza el cálculo y EstanciaNocturna lo extiende con super().
+2. Porque ticket() ya está definido en la clase padre y las clases hijas lo heredan.
+3. Las 24 horas se establecen mediante super().__init__(placa, 24) en el constructor de EstanciaPension.
+4. Solo se cambia una línea, modificando la tarifa de $20 a $25 en el método cobrar() de la clase Estancia.
