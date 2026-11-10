@@ -1,0 +1,13 @@
+Ejercicio 1.
+1.Si
+2.Si
+3.Si
+4.De Boleto y solo aplica el 30% de descuento.
+5.No rechaze ninguna me entendio bastante bien.
+
+Ejercicio 2.
+1.Si
+2.Si
+3.Si
+4.En Estancia porque es la clase padre y así las clases hijas heredan la validación sin repetir el código.
+5.En esta varais veces no me daba el reto .

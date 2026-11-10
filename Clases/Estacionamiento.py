@@ -27,13 +27,3 @@ class EstanciaNocturna(Estancia):
 
     def cobrar(self):
         return super().cobrar() + 50
-
-
-
-class EstanciaNocturna(Estancia):
-    def __init__(self, placa, horas):
-        super().__init__(placa, horas)
-
-    def cobrar(self):
-        return super().cobrar() + 50
-

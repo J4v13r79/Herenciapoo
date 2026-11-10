@@ -10,9 +10,10 @@ def Menu():
     for estancia in estancias:
         print(estancia.ticket())
 
-    error = ValueError("Las horas deben ser mayores que cero")
-
-    raise error
+    try:
+        Estancia("MNO-111", 0)
+    except ValueError as error:
+        print(f"MNO-111 (0 h): {error}")
 
 
 Menu()
